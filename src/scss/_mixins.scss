@@ -79,12 +79,6 @@
 	main {
 		display: block;
 	}
-
-	// Standardise outline styles
-	:focus {
-		outline: thin dotted;
-		outline-offset: 1px;
-	}
 }
 
 /// Adds normalising styles to link elements
