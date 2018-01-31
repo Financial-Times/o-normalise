@@ -81,7 +81,8 @@
 	}
 
 	// Standardise focus styles.
-	.core :focus, .focus-visible {
+	.core :focus,
+	.focus-visible {
 		outline: 2px solid $o-normalise-focus-color;
 	}
 	
