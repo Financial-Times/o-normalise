@@ -90,7 +90,7 @@
 		outline: 2px solid $o-normalise-focus-color;
 	}
 
-
+	// sass-lint:disable no-qualifying-elements
 	.core input:focus,
 	input.focus-visible,
 	.core textarea:focus,
@@ -99,6 +99,7 @@
 	select.focus-visible {
 		box-shadow: 0 0 0 1px $o-normalise-focus-color;
 	}
+	// sass-lint:enable no-qualifying-elements
 	
 	input:focus-visible,
 	textarea:focus-visible,
