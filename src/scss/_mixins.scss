@@ -92,16 +92,10 @@
 
 	.core input:focus, input.focus-visible,
 	.core textarea:focus, textarea.focus-visible,
-	.core select:focus, select.focus-visible,
-	.core input:focus, input.focus-visible,
-	.core textarea:focus, textarea.focus-visible,
-	.core select:focus, select.focus-visible,{
+	.core select:focus, select.focus-visible {
 		box-shadow: 0 0 0 1px $o-normalise-focus-color;
 	}
 	
-	input:focus-visible,
-	textarea:focus-visible,
-	select:focus-visible,
 	input:focus-visible,
 	textarea:focus-visible,
 	select:focus-visible {
