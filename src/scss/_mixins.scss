@@ -80,27 +80,38 @@
 		display: block;
 	}
 
-	// Standardise focus styles.
-	.core :focus,
-	.focus-visible {
-		outline: 2px solid $o-normalise-focus-color;
+	:not(body.js-focus-visible) {
+		// Standardise focus styles.
+		:focus {
+			outline: 2px solid $o-normalise-focus-color;
+		}
+
+		input:focus,
+		textarea:focus,
+		select:focus {
+			box-shadow: 0 0 0 1px $o-normalise-focus-color;
+		}
 	}
-	
+
+	body.js-focus-visible {
+		// Standardise focus styles.
+		.focus-visible {
+			outline: 2px solid $o-normalise-focus-color;
+		}
+		// sass-lint:disable no-qualifying-elements
+		input.focus-visible,
+		textarea.focus-visible,
+		select.focus-visible {
+			box-shadow: 0 0 0 1px $o-normalise-focus-color;
+		}
+		// sass-lint:enable no-qualifying-elements
+	}
+
 	:focus-visible {
 		outline: 2px solid $o-normalise-focus-color;
 	}
 
-	// sass-lint:disable no-qualifying-elements
-	.core input:focus,
-	input.focus-visible,
-	.core textarea:focus,
-	textarea.focus-visible,
-	.core select:focus,
-	select.focus-visible {
-		box-shadow: 0 0 0 1px $o-normalise-focus-color;
-	}
-	// sass-lint:enable no-qualifying-elements
-	
+
 	input:focus-visible,
 	textarea:focus-visible,
 	select:focus-visible {
