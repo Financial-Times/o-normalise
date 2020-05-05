@@ -40,7 +40,7 @@
 			@include output() {
 				@include oNormalise($opts: ());
 			}
-			@include expect() {
+			@include expect() { // stylelint-disable block-no-empty
 			}
 		}
 	}
