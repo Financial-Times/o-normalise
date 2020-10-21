@@ -12,7 +12,7 @@
     },
     "main": "main.js",
     "peerDependencies": {
-        "@financial-times/o-colors": "^5.0.0"
+        "@financial-times/o-colors": "^100.0.0-3"
     },
     "description": "Provides base styles and resets for stylesheets. Includes standardised utilities, such as visually hiding components or adding a consistent focus state.",
     "publishConfig": {
