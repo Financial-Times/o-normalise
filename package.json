@@ -1,14 +1,22 @@
 {
-	"private": true,
-	"name": "o-normalise",
-	"devDependencies": {
-		"eslint": "^7.8.1",
-		"eslint-config-origami-component": "^2.1.0",
-		"origami-ci-tools": "^2.0.2",
-		"remark": "^12.0.1",
-		"remark-lint": "^7.0.1",
-		"remark-preset-lint-origami-component": "^1.1.3",
-		"stylelint": "^13.7.0",
-		"stylelint-config-origami-component": "^1.0.4"
-	}
+    "name": "o-normalise",
+    "devDependencies": {
+        "eslint": "^7.8.1",
+        "eslint-config-origami-component": "^2.1.0",
+        "origami-ci-tools": "^2.0.2",
+        "remark": "^12.0.1",
+        "remark-lint": "^7.0.1",
+        "remark-preset-lint-origami-component": "^1.1.3",
+        "stylelint": "^13.7.0",
+        "stylelint-config-origami-component": "^1.0.4"
+    },
+    "main": "main.js",
+    "peerDependencies": {
+        "@financial-times/o-colors": "^5.0.0"
+    },
+    "description": "Provides base styles and resets for stylesheets. Includes standardised utilities, such as visually hiding components or adding a consistent focus state.",
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    },
+    "version": "3.0.0-0"
 }
