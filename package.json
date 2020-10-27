@@ -1,6 +1,6 @@
 {
     "name": "@financial-times/o-normalise",
-    "version": "100.0.0-7",
+    "version": "100.0.0-8",
     "description": "Provides base styles and resets for stylesheets. Includes standardised utilities, such as visually hiding components or adding a consistent focus state.",
     "license": "MIT",
     "type": "module",
@@ -22,7 +22,7 @@
         "stylelint-config-origami-component": "^1.0.4"
     },
     "peerDependencies": {
-        "@financial-times/o-colors": "^100.0.0-7"
+        "@financial-times/o-colors": "^100.0.0-8"
     },
     "publishConfig": {
         "registry": "http://localhost:4873"
