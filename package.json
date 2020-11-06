@@ -1,6 +1,6 @@
 {
   "name": "@financial-times/o-normalise",
-  "version": "100.0.0-12",
+  "version": "100.0.0-13",
   "description": "Provides base styles and resets for stylesheets. Includes standardised utilities, such as visually hiding components or adding a consistent focus state.",
   "keywords": [],
   "homepage": "https://github.com/Financial-Times/o-normalise#readme",
@@ -33,7 +33,7 @@
     "typescript": "^4.0.5"
   },
   "peerDependencies": {
-    "@financial-times/o-colors": "^100.0.0-12"
+    "@financial-times/o-colors": "^100.0.0-13"
   },
   "publishConfig": {
     "registry": "https://origami-npm-registry-prototype.herokuapp.com"
