@@ -111,13 +111,13 @@
 	html:not(.js-focus-visible) {
 		// Standardise focus styles.
 		:focus {
-			outline: 2px solid $_o-normalise-focus-color;
+			outline: 2px solid currentColor;
 		}
 
 		input:focus,
 		textarea:focus,
 		select:focus {
-			box-shadow: 0 0 0 1px $_o-normalise-focus-color;
+			box-shadow: 0 0 0 1px currentColor;
 		}
 	}
 
@@ -130,13 +130,13 @@
 		// Standardise focus styles.
 		// stylelint-disable-next-line selector-no-qualifying-type
 		.focus-visible {
-			outline: 2px solid $_o-normalise-focus-color;
+			outline: 2px solid currentColor;
 		}
 		// stylelint-disable-next-line selector-no-qualifying-type
 		input.focus-visible, // stylelint-disable-next-line selector-no-qualifying-type
 		textarea.focus-visible,
 		select.focus-visible {
-			box-shadow: 0 0 0 1px $_o-normalise-focus-color;
+			box-shadow: 0 0 0 1px currentColor;
 		}
 		// Disable browser default focus style.
 		// stylelint-disable-next-line selector-no-qualifying-type
@@ -170,7 +170,7 @@
 	body:not(.js-focus-visible) :focus-visible,
 	html:not(.js-focus-visible) :focus-visible,
 	:focus-visible {
-		outline: 2px solid $_o-normalise-focus-color;
+		outline: 2px solid currentColor;
 	}
 
 	body:not(.js-focus-visible) input:focus-visible,
@@ -182,7 +182,7 @@
 	input:focus-visible,
 	textarea:focus-visible,
 	select:focus-visible {
-		box-shadow: 0 0 0 1px $_o-normalise-focus-color;
+		box-shadow: 0 0 0 1px currentColor;
 	}
 
 	// Prevent IE from putting focus styles on the body or html. These selectors
